@@ -1,0 +1,13 @@
+# Text file normalization
+# Do not edit manually
+*.sh text eol=lf
+
+*.tsx linguist-detectable
+*.htm linguist-vendored  
+*.yaml linguist-detectable=false
+
+*.gif binary
+src/** linguist-detectable
+*.svg text
+
+*.map linguist-generated
